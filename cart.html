@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="feature/banner.jpeg.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Fine_strokes</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="feature/banner.jpeg.jpeg" width="40px" height="40px"  alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <div class="main-bg-5">
+        <h3>Cart</h3>
+      </div>
+      <table width="100%">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://th.bing.com/th/id/OIP.310XFCdMxRT-N7lMB8Xl9QHaLH?pid=ImgDet&rs=1" alt=""></td>
+                <td>Men Brown Relaxed Fit Sweatshir</td>
+                <td>₹749</td>
+                <td><input type="number" value="1"></td>
+                <td>₹749</td>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><img src="https://n1.sdlcdn.com/imgs/h/5/i/The-Indian-Garage-Co-100-SDL943741683-4-1c642.jpg" alt=""></td>
+                <td> Men White & Teal Blue Slim Fit <br>Striped Casual Shirt</td>
+                <td>₹692</td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 692</td>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td> 
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><img src="https://th.bing.com/th/id/OIP.eWstx-1GXji6RDzlQ1IYgAHaJl?pid=ImgDet&rs=1" alt=""></td>
+                <td>Men White Clarkin Sneakers</td>
+                <td>₹2099</td>
+                <td><input type="number" value="1"></td>
+                <td>₹2099</td>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><img src="https://th.bing.com/th/id/OIP.OQ09q5f9D7L0WCZDQoiIiwHaJ4?pid=ImgDet&rs=1" alt=""></td>
+                <td>Noise ColorFit Qube Oxy Smartwatch - Black</td>
+                <td>₹1199</td>
+                <td><input type="number" value="1"></td>
+                <td>₹1199</td>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+    <section id="cart">
+    <div class="coupon">
+        <div>
+        <h3>Apply coupon</h3>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    <div class="total">
+        <h3>Cart subtotal</h3>
+        <table>
+            <tr>
+                <td>cart subtotal</td>
+                <td>₹749</td>
+            </tr>
+            <tr>
+                <td>shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>₹749</strong></td>
+            </tr>
+        </table>
+        <button>Proceed to buy</button>
+    </div>
+    </div>
+</section>
+      <footer>
+        <div class="container">
+            <div class="logo">
+                <h3 class="text-white about">Fine_Strokes</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="text-white">Fine_Strokes is a E-commerce website where you will find great items with designs. Here each item is beautiful with the required sources.</p>
+      
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white">Pages</h6>
+                    <ul type="none">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="shop.html" class="text-white">Shop</a></li>
+                        <li><a href="blog.html" class="text-white">Blogs</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white">Documents</h6>
+                    <ul type="none">
+                        <li><a href="" target="_blank" class="text-white">Terms to use</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-white">Contact us</h6>
+                    <ul type="none" class="d-flex">
+                        <li><a href="mailto:mohammedrajamiya123@gmail.com" target="_blank" class="text-white" ><i class="fa-regular fa-envelope"></i></a></li>
+                        <li><a href="tel:+919014705167" target="_blank" class="text-white"><i class="fa-solid fa-phone"></i></a></li>
+                        <li><a href="https://wa.me/+919014705167" target="_blank" class="text-white"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a></li>
+      
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p class="text-white text-center">&copy; copyright 2022 origin. All rights reserved &reg;</p>
+            </div>
+        </div>
+        
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="/js main.js"></script>
+      <script>
+    </script>
+    </body>
+    </html>
